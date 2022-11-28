@@ -1,16 +1,41 @@
-
+/* variables */
 :root{
     --primary: #198A88;
     --secondary: #324b4A;
 }
 
-/* small screen */
-@media screen and (min-width:620px){
+/* reset */
+body,p,a,ul,li{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+li{
+    list-style-type: none;
+}
+
+/* base styles  */
+body{
+    overflow-x: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* small screen */
+@media (200px <= width <=450px){
+    #header{
+        background-color: var(--primary);
+        text-align: center;
+        font-size: 10vw;
+        margin:0px;
+        padding:3% 0px;
+
+    }
 }
 
 /* medium screen */
-@media screen and (min-width:960px){
+@media screen and (min-width:901px){
 
 }
 
