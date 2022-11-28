@@ -2,6 +2,7 @@
 :root{
     --primary: #198A88;
     --secondary: #324b4A;
+    --textPrimary: #2c2d2d;
 }
 
 /* reset */
@@ -26,11 +27,11 @@ body{
 @media (200px <= width <=450px){
     #header{
         background-color: var(--primary);
+        color: var(--textPrimary);
         text-align: center;
         font-size: 10vw;
-        margin:0px;
-        padding:3% 0px;
-
+        margin: auto;
+        height:7vh;
     }
 }
 
