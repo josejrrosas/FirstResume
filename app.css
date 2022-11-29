@@ -2,7 +2,7 @@
 :root{
     --primary: #198A88;
     --secondary: #324b4A;
-    --textPrimary: #2c2d2d;
+    --tertiary: #2c2d2d;
 }
 
 /* reset */
@@ -27,12 +27,66 @@ body{
 @media (200px <= width <=450px){
     #header{
         background-color: var(--primary);
-        color: var(--textPrimary);
+        color: var(--tertiary);
         text-align: center;
-        font-size: 10vw;
+        font-size: 1.5rem;
         margin: auto;
-        height:7vh;
+        height:10vh;
+        line-height: 10vh;
     }
+
+    ul{
+        background-color: #2c2d2d;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 20vh;
+    }
+
+    li a{
+        display: inline-block;
+        white-space: nowrap;
+        text-decoration: none;
+        margin:5px;
+        border-bottom: 3px solid var(--primary);
+        font-size: 1.4rem;
+        font-weight:normal;
+        color:var(--primary);
+    }
+    
+
+    #hero{
+        height: 30vh;
+        background-image: url('Assets/heroImage.jpeg');
+        background-size: cover;
+        background-position: center;
+        font-size: 1.2rem;
+        text-align:end;
+    }
+
+    #main{
+        color: var(--secondary);
+        padding: 10% 5%;
+    }
+
+    #aboutMe h1{
+        border-bottom: 3px solid var(--secondary);
+        padding-bottom: 4%;
+    }
+
+    #aboutMe p{
+        font-size: .8rem;
+    }
+
+    #work h1{
+        border-bottom: 3px solid var(--secondary);
+        margin-top: 20%;
+        padding: 4% 0;
+    }
+
 }
 
 /* medium screen */
