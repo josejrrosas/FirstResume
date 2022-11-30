@@ -71,7 +71,7 @@ body{
         color: var(--secondary);
         padding: 10% 5%;
     }
-
+    /* About me section */
     #aboutMe h1{
         border-bottom: 3px solid var(--secondary);
         padding-bottom: 4%;
@@ -81,11 +81,47 @@ body{
         font-size: .8rem;
     }
 
+    /* work section */
     #work h1{
         border-bottom: 3px solid var(--secondary);
         margin-top: 20%;
         padding: 4% 0;
     }
+
+    .port{
+        height:30vh;
+    }
+
+    #work img{
+        width:80vw;
+        height:20vh;
+        margin:5%; 
+        border: 5px solid var(--primary);
+        background-color: var(--primary);
+        background-blend-mode: soft-light;
+    }
+
+    .projName{
+        background-color: var(--primary);
+        position: relative;
+        text-align: center;
+        bottom:50%;
+        left:5%;
+        width: 50%;
+    }
+
+    .projName h3{
+        font-size: 1.5rem;   
+        padding-top: 8px;
+        margin:0;
+    }
+    
+    .projName p{
+        font-size: 1rem;
+        padding-bottom: 8px;
+    }
+
+
 
 }
 
